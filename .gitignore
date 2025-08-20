@@ -1,5 +1,0 @@
-.devcontainer
-.devcontainer\devcontainer.json
-.devcontainer\Dockerfile
-.devcontainer\reinstall-cmake.sh
-.github\dependabot.yml
