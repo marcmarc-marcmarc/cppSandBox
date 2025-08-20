@@ -4,7 +4,7 @@
 
 int main ()
 {
-    std::ifstream input("/workspaces/cppSandBox/Parsing practice/files/words.txt");
+    std::ifstream input("C:\\Users\\Marc\\OneDrive\\Documents\\GitHub\\cppSandBox\\Parsing practice\\files\\words.txt");
     int lineCount = 0, wordCount, start = 0, end;
     std::string line;
 
