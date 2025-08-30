@@ -1,0 +1,58 @@
+make some basic switch case quetion asker
+do a file io
+
+define and use an array
+
+#include <direct.h> 
+
+std::filesystem
+
+#include <filesystem>
+
+try / except
+
+Assertions
+
+unit testing
+
+
+#include <fstream>
+#include <iostream>
+#include <string>
+
+
+
+// C++ Program to Read a file line by line using getline
+#include <fstream>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    // Create an input file stream object named 'file' and
+    // open the file "GFG.txt".
+    ifstream file("GFG.txt");
+
+    // String to store each line of the file.
+    string line;
+
+    if (file.is_open()) {
+        // Read each line from the file and store it in the
+        // 'line' variable.
+        while (getline(file, line)) {
+            cout << line << endl;
+        }
+
+        // Close the file stream once all lines have been
+        // read.
+        file.close();
+    }
+    else {
+        // Print an error message to the standard error
+        // stream if the file cannot be opened.
+        cerr << "Unable to open file!" << endl;
+    }
+
+    return 0;
